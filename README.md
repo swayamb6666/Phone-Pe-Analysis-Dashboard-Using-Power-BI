@@ -244,7 +244,7 @@ This Power BI dashboard provides comprehensive analysis of PhonePe transaction d
 #### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/phonepe-powerbi-dashboard.git
+   git clone [https://github.com/swayamb6666/Phone-Pe-Analysis-Dashboard-Using-Power-BI.git]
    ```
 2. Open `PhonePe_Dashboard.pbix` in Power BI Desktop
 3. Explore the 5 interactive tabs
