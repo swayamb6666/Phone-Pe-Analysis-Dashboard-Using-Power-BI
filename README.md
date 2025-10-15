@@ -5,9 +5,17 @@ A comprehensive Power BI dashboard analyzing PhonePe payment transactions across
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 
+## 🗂️ Dataset
+
+The dataset used in this Power BI project is hosted on Google Drive due to GitHub’s file size limit.
+
+📂 **File:** Phonepe-Final-Dataset.xlsx  
+📥 [Download Dataset from Google Drive][https://docs.google.com/spreadsheets/d/1bXthUHgFt1veh1AgHnxJd_7Nyyb2he3_/edit?usp=sharing&ouid=116391761430584863718&rtpof=true&sd=true]
+
+
 ## 📄 Quick Access
 
-> **📥 [View Dashboard PDF](phonepe_analysis_dashboard.pdf)** | **💻 [Download Interactive .pbix File](#installation--usage)**
+> **📥 [View Dashboard PDF](phonepe_analysis_dashboard.pdf)** 
 
 ---
 
@@ -278,9 +286,9 @@ This Power BI dashboard provides comprehensive analysis of PhonePe transaction d
 ## 👤 Author
 
 **Your Name**  
-📧 Email: your.email@example.com  
-💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
-🐙 GitHub: [@yourusername](https://github.com/yourusername)
+📧 Email: swayambana132@gmail.com
+💼 LinkedIn: [Swayam Bana](https://www.linkedin.com/in/swayam-bana-394a20293/)  
+🐙 GitHub: [@Swayam Bana](https://github.com/swayamb6666)
 
 ---
 
