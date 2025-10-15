@@ -1,103 +1,132 @@
-📊 PhonePe Analysis Dashboard – Power BI Project
-🧠 1. Project Overview
+# 📊 PhonePe Transaction Analysis Dashboard
 
-This project presents an interactive Power BI Dashboard analyzing PhonePe transaction data across different services such as Loans, Insurance, Money Transfers, and Recharge & Bills.
-The goal is to visualize transaction patterns, amounts, and failure reasons to derive key business insights.
+A comprehensive Power BI dashboard analyzing PhonePe transaction data with interactive visualizations across multiple service categories.
 
-🎯 2. Objectives
+![Dashboard Overview](screenshots/overview.png)
 
-🔹 To analyze the total transaction amount and volume across various services.
+## 🎯 Project Overview
 
-🔹 To identify key reasons for failed transactions.
+This Power BI dashboard provides in-depth analysis of PhonePe transactions, offering insights into payment patterns, service usage, failed transactions, and financial trends. The dashboard consists of 5 interactive tabs, each focusing on different aspects of the data.
 
-🔹 To visualize monthly transaction trends.
+## 📈 Key Metrics
 
-🔹 To compare performance across different financial services.
+- **Total Transaction Amount**: ₹3,333M
+- **Total Transactions**: 288K
+- **Service Categories Analyzed**: Loans, Insurance, Money Transfer, Recharge & Bills
+- **Date Range**: January 1, 2024 - December 30, 2024
 
-🔹 To create an interactive and user-friendly dashboard for quick insights.
+## 🖼️ Dashboard Tabs
 
-🧩 3. Dashboard Features
+### 1. **Overview Tab**
+- Total amount and transaction summary
+- Services vs Amount bar chart
+- Transaction volume metrics
+- Date range filters
 
-The dashboard consists of 5 interactive tabs, each highlighting a different analytical aspect:
+### 2. **Failed Payment Analysis**
+- Failed payment reasons pie chart
+- Monthly trend analysis
+- Root cause identification
+- Top failure categories (Server error, Wrong PIN, Insufficient balance, etc.)
 
-📍 Overview Dashboard – Displays total transaction amount, total transactions, and summary KPIs.
+### 3. **Transaction Trends**
+- Time-series analysis
+- Service-wise performance
+- Peak transaction periods
+- Growth patterns
 
-💰 Service vs Amount – Compares the total amount processed across different PhonePe services.
+### 4. **Service Breakdown**
+- Category-wise distribution
+- Top performing services
+- Revenue contribution analysis
 
-📅 Monthly Transaction Trends – Shows month-wise transaction growth and seasonal patterns.
+## 🛠️ Tools & Technologies
 
-❌ Failed Payment Analysis – Highlights reasons for failed payments (e.g., Wrong PIN, Server Error).
+- **Power BI Desktop** - Dashboard development
+- **DAX** - Data modeling and calculations
+- **Power Query** - Data transformation
+- **Data Source**: PhonePe transaction data
 
-📊 Comparative Insights – Provides category-wise and time-wise comparisons for deeper insights.
+## 📊 Key Insights
 
-💡 4. Key Insights from the Analysis
+1. **Loans** dominate with ₹102M in transactions
+2. **Insurance** follows with ₹22M
+3. **Server errors** (33.76%) and **Wrong PIN** (27.61%) are primary failure reasons
+4. Peak transaction months: **April** and **July**
+5. Significant drop in transactions during **September**
 
-📈 Loans accounted for the highest transaction amount (~102M).
+## 🔍 Features
 
-💳 Major failed payment reason: Wrong PIN (33.76%).
+- ✅ Interactive date range filter (1/1/2024 - 12/30/2024)
+- ✅ Dynamic visualizations with drill-through capabilities
+- ✅ Failed payment reason tracking
+- ✅ Service-wise performance comparison
+- ✅ Monthly trend analysis
+- ✅ KPI cards for quick insights
 
-📆 Maximum transaction volume observed during July 2024 (13.7M).
+## 📥 Installation & Usage
 
-💵 Total Transactions: ≈300K
+### Prerequisites
+- Power BI Desktop (Latest version recommended)
+- Windows 10 or later
 
-🏦 Total Transaction Amount: ≈3,333M
+### Steps to View Dashboard
+1. Clone this repository
+   ```bash
+   git clone https://github.com/yourusername/phonepe-powerbi-dashboard.git
+   ```
+2. Open `PhonePe_Dashboard.pbix` in Power BI Desktop
+3. Refresh data connections if needed
+4. Navigate through the 5 tabs to explore insights
 
-🛠️ 5. Tools and Technologies Used
-Tool / Technology	Purpose
-Power BI Desktop	Dashboard creation and visualization
-Power Query Editor	Data cleaning and transformation
-DAX (Data Analysis Expressions)	Custom measures and calculations
-Excel / CSV Dataset	Data source for PhonePe transactions
+## 📸 Screenshots
 
+### Overview
+![Overview Tab](screenshots/overview.png)
 
+### Failed Payment Analysis
+![Failed Payment Tab](screenshots/failed-payments.png)
 
-🌐 6. Live Dashboard Link
-
-You can explore the interactive Power BI dashboard here 👇
-
-👉 🔗 View Live Dashboard
-
-(Replace YOUR-LINK-HERE with your actual Power BI public dashboard link once published.)
-
-💾 7. Download Power BI File
-
-If you’d like to explore the report locally in Power BI Desktop:
-📥 Download PhonePe_Analysis_Dashboard.pbix
-
-🖼️ 8. Dashboard Preview
-
-Include a screenshot of your main dashboard for a quick visual reference 👇
-
-![PhonePe Power BI Dashboard](images/dashboard-preview.png)
-
-
-(Upload your image to the images folder in the repo.)
-
-🚀 9. Steps to View the Dashboard
-
-Clone this repository:
-
-git clone https://github.com/yourusername/PhonePe-Analysis.git
+### Service Breakdown
+![Services Tab](screenshots/services.png)
 
 
-Open the file PhonePe_Analysis_Dashboard.pbix in Power BI Desktop.
+## 🎓 Learning Outcomes
 
-Interact with slicers, filters, and tabs to explore insights.
+Through this project, I enhanced my skills in:
+- Data visualization best practices
+- Power BI dashboard design
+- DAX formula creation
+- Business intelligence reporting
+- Financial data analysis
 
-🔮 10. Future Enhancements
+## 🚀 Future Enhancements
 
-🔹 Integrate real-time API data for live updates.
+- [ ] Add real-time data refresh
+- [ ] Implement predictive analytics for transaction trends
+- [ ] Create mobile-optimized dashboard view
+- [ ] Add customer segmentation analysis
+- [ ] Include competitive benchmarking
 
-🔹 Add geographical analysis (state-wise insights).
+## 👤 Author
 
-🔹 Automate data refresh using Power BI Service Gateway.
+**Your Name**
+- GitHub: [@SwayamBana](https://github.com/swayamb6666))
+- LinkedIn: ([https://www.linkedin.com/in/swayam-bana-394a20293/])
+- Email: swayambana132@gmail.com
 
-🔹 Improve UX with advanced navigation buttons and tooltips.
+## 🙏 Acknowledgments
 
-👨‍💻 12. Author
+- Data source: PhonePe public dataset / simulated data
+- Inspired by real-world fintech analytics
+- Thanks to the Power BI community for resources and support
 
-Swayam Bana
-🎓 B.Sc. Data Science, 3rd Year – Mumbai University
-📧 swayambana132@gmail.com
+## 📞 Contact
 
-🔗 LinkedIn Profile: https://www.linkedin.com/in/swayam-bana-394a20293/
+For questions or collaboration opportunities, feel free to reach out!
+
+---
+
+⭐ If you find this project useful, please consider giving it a star!
+
+**Last Updated**: October 2025
